@@ -1,0 +1,83 @@
+[
+
+{
+  "leagues": [
+    {
+      "id": 1,
+      "name": "English Premier League",
+      "country": "England",
+      "logo_url": "https://example.com/leagues/epl_logo.png",
+      "matches": [
+        {
+          "match_id": 101,
+          "home_team": {
+            "id": 1,
+            "name": "Manchester United",
+            "logo_url": "https://example.com/teams/manu_logo.png"
+          },
+          "away_team": {
+            "id": 2,
+            "name": "Chelsea FC",
+            "logo_url": "https://example.com/teams/chelsea_logo.png"
+          },
+          "start_time": "2024-09-10T18:00:00Z",
+          "status": "live",
+          "live_stream_url": "https://example.com/stream/epl_manu_vs_chelsea",
+          "score": {
+            "home_team": 2,
+            "away_team": 1
+          }
+        },
+        {
+          "match_id": 102,
+          "home_team": {
+            "id": 3,
+            "name": "Liverpool",
+            "logo_url": "https://example.com/teams/liverpool_logo.png"
+          },
+          "away_team": {
+            "id": 4,
+            "name": "Arsenal",
+            "logo_url": "https://example.com/teams/arsenal_logo.png"
+          },
+          "start_time": "2024-09-11T20:00:00Z",
+          "status": "upcoming",
+          "live_stream_url": null,
+          "score": {
+            "home_team": null,
+            "away_team": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo_url": "https://example.com/leagues/laliga_logo.png",
+      "matches": [
+        {
+          "match_id": 201,
+          "home_team": {
+            "id": 5,
+            "name": "FC Barcelona",
+            "logo_url": "https://example.com/teams/barcelona_logo.png"
+          },
+          "away_team": {
+            "id": 6,
+            "name": "Real Madrid",
+            "logo_url": "https://example.com/teams/realmadrid_logo.png"
+          },
+          "start_time": "2024-09-12T21:00:00Z",
+          "status": "upcoming",
+          "live_stream_url": null,
+          "score": {
+            "home_team": null,
+            "away_team": null
+          }
+        }
+      ]
+    }
+  ]
+}
+]
